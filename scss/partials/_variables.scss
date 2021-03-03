@@ -1,0 +1,25 @@
+ $enable-grid-classes:       true !default;
+ $grid-gutter-width:           30px !default;
+ $grid-columns:                12 !default;
+ $container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px
+  ) !default;
+  $grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+$color1:#333333;  /*rgb(51,51,51)*/
+$color2:#f49d1d;  /*rgb(244, 157, 29)*/
+$color3:#fcfcfc;  /*rgb(252, 252, 252)*/
+$color4:#666666;  /*rgb(102,102,102)*/
+$color5:#444444;  /*rgb(68, 68, 68)*/
+$color6:#dedede;  /*rgb(222,222,222)*/
+$color7:#cccccc;  /*rgb(204, 204, 204)*/
+$color8:#ebebeb;  /*rgb(235,235,235)*/

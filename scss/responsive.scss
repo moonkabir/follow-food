@@ -1,0 +1,328 @@
+@media (max-width: 450px) {
+p{
+    font-size: 14px;
+}
+.button{
+    padding: 7px 14px;
+    font-size: 14px;
+}
+/* ==========================================================================
+    3.Hero
+   ========================================================================== */
+   .hero{
+    .hero-content{
+        h1{
+            font-size: 24px !important;
+        }
+    }
+}
+/* ==========================================================================
+    8.Team
+   ========================================================================== */
+.team{
+    // section-content
+    .swiper-slide-active .team-member-social-icon{
+            visibility: visible;
+            opacity: 1;
+    }
+    .swiper-slide-active .team-member{
+        box-shadow: 0px 5px 20px 0px rgba(102, 102, 102, 0.25);
+    }
+}
+/* ==========================================================================
+    10.Testimonial
+   ========================================================================== */
+.testimonial{
+    .testimonial-slider-section{
+        .client{
+            display: block;
+            .client-info{
+                p{
+                    font-size: 16px;
+                }
+            }
+            .client-comment{
+                p{
+                    font-size: 14px;
+                    padding: 0 20px;
+                }
+            }
+        }
+    }
+}
+}
+@media (min-width: 450px) and (max-width: 990px) {
+/* ==========================================================================
+    3.Hero
+   ========================================================================== */
+.hero{
+    .hero-content{
+        h1{
+            font-size: 30px !important;
+        }
+    }
+}
+}
+@media (max-width: 575px){
+/* ==========================================================================
+    5.Today specials
+   ========================================================================== */
+.today-specials{
+    .special-list-div{
+        .item-5{
+            transform: translateX(50%);
+        }
+    }
+}
+/* ==========================================================================
+    11.latest-news
+   ========================================================================== */
+.latest-news{
+    padding-top: 300px;
+}
+}
+@media only screen and (max-width: 600px) {}
+@media (min-width: 576px) and (max-width: 767px) {
+/* ==========================================================================
+    5.Today specials
+   ========================================================================== */
+.today-specials{
+    .special-list-div{
+        .item-4,.item-5{
+            transform: translateX(50%);
+        }
+    }
+}
+}
+@media (min-width: 576px) {
+/* ==========================================================================
+    5.Today specials
+   ========================================================================== */
+.today-specials{
+    .special-list-div{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+/* ==========================================================================
+    6.menu-card
+   ========================================================================== */
+.menu-card{
+    padding-top: 750px;
+}
+}
+@media (max-width: 767px) {
+/* ==========================================================================
+    10.Testimonial
+   ========================================================================== */
+.testimonial{
+    .testimonial-slider-section{
+        .client{
+            display: block;
+            .client-info{
+                p{
+                    font-size: 16px;
+                }
+            }
+            .client-comment{
+                p{
+                    font-size: 14px;
+                    padding: 0 20px;
+                }
+            }
+        }
+    }
+}
+/* ==========================================================================
+    11.latest-news
+   ========================================================================== */
+   .latest-news{
+    padding-top: 300px;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {    
+/* ==========================================================================
+   4.our-history
+   ========================================================================== */
+.our-history {
+    .history-img-bg {
+        padding: 53px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border: 3px solid $color8 ;
+        background-color: $color3;
+        img {
+            display: block;
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border: 1px solid transparent ;
+        }
+    }
+}    
+/* ==========================================================================
+    8.Team
+   ========================================================================== */
+.team{
+    .team-member{
+        .team-img{
+            &::before{
+                width: 110px;
+            }
+        }
+    }
+}
+}
+@media (min-width: 768px) {
+/* ==========================================================================
+    5.Today specials
+   ========================================================================== */
+.today-specials{
+    background:url('../images/today-speacial-bg.png') no-repeat center center;
+    .special-list-div{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}
+/* ==========================================================================
+    6.menu-card
+   ========================================================================== */
+.menu-card{
+    background:#fcfcfc url('../images/today-speacial-bg2.png')no-repeat left top 100px/30%;
+    .menu-list{
+        .menu-list-content{
+            padding: 0 30px 0 20px;
+        }
+    }
+}
+/* ==========================================================================
+    7.Reservation-Table
+   ========================================================================== */
+.reservation-table{
+    background: url('../images/reservation-right-img.png')no-repeat center right/35%,
+    url('../images/reservation-left-img.png')no-repeat center left/10%;
+}
+/* ==========================================================================
+    11.latest-news
+   ========================================================================== */
+.latest-news{
+    padding-top: 200px;
+}
+}
+@media (max-width: 991px) {
+/* ==========================================================================
+    3.Hero
+   ========================================================================== */
+.hero{
+    height: 80vh;
+    .banner-slider-section{
+        display: none;
+    }
+    .hero-content{
+        transform: translateY(50%);
+        h1{
+            font-size: 32px;
+        }
+    }
+}
+}
+@media (min-width: 451px) and (max-width: 767px) {
+/* ==========================================================================
+    8.Team
+   ========================================================================== */
+.team{
+    .team-member{
+        .team-img{
+            &::before{
+                width: 120px;
+            }
+        }
+    }
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) {
+/* ==========================================================================
+   4.our-history
+   ========================================================================== */
+.our-history {
+    .history-img-bg {
+        padding: 53px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border: 3px solid $color8 ;
+        background-color: $color3;
+        img {
+            display: block;
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border: 1px solid transparent ;
+        }
+    }
+}
+/* ==========================================================================
+    5.Today specials
+   ========================================================================== */
+.today-specials{
+    .special-list-div{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        top: 75%;
+        .special-list{
+            margin-top: 10px;
+            .special-list-content{
+                &:nth-child(even){
+                    margin-top: -7px;
+                }
+            }
+        }
+    }
+}
+/* ==========================================================================
+    6.menu-card
+   ========================================================================== */
+.menu-card{
+    padding-top: 300px;
+}
+/* ==========================================================================
+    11.latest-news
+   ========================================================================== */
+.latest-news{
+    padding-top: 200px;
+    .latest-news-img{
+        .left-img-content{
+            .button{
+                padding: 10px 30px;
+                font-size: 16px;
+            }
+            .heading{
+                font-size: 24px;
+            }
+            .author{              
+                line-height: 2.571;
+            }
+        }
+        .right-img-button{
+            bottom: 5%;
+            right: 8%;
+            padding: 10px 30px;
+            font-size: 16px;
+        }
+    }
+    // .latest-news-img
+}
+}
+@media (max-width: 1199px) {}
+@media (min-width: 1200px) {
+/* ==========================================================================
+    8.Team
+   ========================================================================== */
+.team{
+    .team-member{
+        .team-img{
+            &::before{
+                width: 160px;
+            }
+        }
+    }
+}
+}
