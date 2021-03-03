@@ -1,0 +1,270 @@
+@media (max-width: 450px) {
+  p {
+    font-size: 14px;
+  }
+  .button {
+    padding: 7px 14px;
+    font-size: 14px;
+  }
+  /* ==========================================================================
+    3.Hero
+   ========================================================================== */
+  .hero .hero-content h1 {
+    font-size: 24px !important;
+  }
+  /* ==========================================================================
+    8.Team
+   ========================================================================== */
+  .team .swiper-slide-active .team-member-social-icon {
+    visibility: visible;
+    opacity: 1;
+  }
+  .team .swiper-slide-active .team-member {
+    box-shadow: 0px 5px 20px 0px rgba(102, 102, 102, 0.25);
+  }
+  /* ==========================================================================
+    10.Testimonial
+   ========================================================================== */
+  .testimonial .testimonial-slider-section .client {
+    display: block;
+  }
+  .testimonial .testimonial-slider-section .client .client-info p {
+    font-size: 16px;
+  }
+  .testimonial .testimonial-slider-section .client .client-comment p {
+    font-size: 14px;
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 990px) {
+  /* ==========================================================================
+    3.Hero
+   ========================================================================== */
+  .hero .hero-content h1 {
+    font-size: 30px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  /* ==========================================================================
+    5.Today specials
+   ========================================================================== */
+  .today-specials .special-list-div .item-5 {
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+  }
+  /* ==========================================================================
+    11.latest-news
+   ========================================================================== */
+  .latest-news {
+    padding-top: 300px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* ==========================================================================
+    5.Today specials
+   ========================================================================== */
+  .today-specials .special-list-div .item-4, .today-specials .special-list-div .item-5 {
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+  }
+}
+
+@media (min-width: 576px) {
+  /* ==========================================================================
+    5.Today specials
+   ========================================================================== */
+  .today-specials .special-list-div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  /* ==========================================================================
+    6.menu-card
+   ========================================================================== */
+  .menu-card {
+    padding-top: 750px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* ==========================================================================
+    10.Testimonial
+   ========================================================================== */
+  .testimonial .testimonial-slider-section .client {
+    display: block;
+  }
+  .testimonial .testimonial-slider-section .client .client-info p {
+    font-size: 16px;
+  }
+  .testimonial .testimonial-slider-section .client .client-comment p {
+    font-size: 14px;
+    padding: 0 20px;
+  }
+  /* ==========================================================================
+    11.latest-news
+   ========================================================================== */
+  .latest-news {
+    padding-top: 300px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* ==========================================================================
+   4.our-history
+   ========================================================================== */
+  .our-history .history-img-bg {
+    padding: 53px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 3px solid #ebebeb;
+    background-color: #fcfcfc;
+  }
+  .our-history .history-img-bg img {
+    display: block;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 1px solid transparent;
+  }
+  /* ==========================================================================
+    8.Team
+   ========================================================================== */
+  .team .team-member .team-img::before {
+    width: 110px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* ==========================================================================
+    5.Today specials
+   ========================================================================== */
+  .today-specials {
+    background: url("../images/today-speacial-bg.png") no-repeat center center;
+  }
+  .today-specials .special-list-div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  /* ==========================================================================
+    6.menu-card
+   ========================================================================== */
+  .menu-card {
+    background: #fcfcfc url("../images/today-speacial-bg2.png") no-repeat left top 100px/30%;
+  }
+  .menu-card .menu-list .menu-list-content {
+    padding: 0 30px 0 20px;
+  }
+  /* ==========================================================================
+    7.Reservation-Table
+   ========================================================================== */
+  .reservation-table {
+    background: url("../images/reservation-right-img.png") no-repeat center right/35%, url("../images/reservation-left-img.png") no-repeat center left/10%;
+  }
+  /* ==========================================================================
+    11.latest-news
+   ========================================================================== */
+  .latest-news {
+    padding-top: 200px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* ==========================================================================
+    3.Hero
+   ========================================================================== */
+  .hero {
+    height: 80vh;
+  }
+  .hero .banner-slider-section {
+    display: none;
+  }
+  .hero .hero-content {
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+  .hero .hero-content h1 {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 767px) {
+  /* ==========================================================================
+    8.Team
+   ========================================================================== */
+  .team .team-member .team-img::before {
+    width: 120px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* ==========================================================================
+   4.our-history
+   ========================================================================== */
+  .our-history .history-img-bg {
+    padding: 53px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 3px solid #ebebeb;
+    background-color: #fcfcfc;
+  }
+  .our-history .history-img-bg img {
+    display: block;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 1px solid transparent;
+  }
+  /* ==========================================================================
+    5.Today specials
+   ========================================================================== */
+  .today-specials .special-list-div {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    top: 75%;
+  }
+  .today-specials .special-list-div .special-list {
+    margin-top: 10px;
+  }
+  .today-specials .special-list-div .special-list .special-list-content:nth-child(even) {
+    margin-top: -7px;
+  }
+  /* ==========================================================================
+    6.menu-card
+   ========================================================================== */
+  .menu-card {
+    padding-top: 300px;
+  }
+  /* ==========================================================================
+    11.latest-news
+   ========================================================================== */
+  .latest-news {
+    padding-top: 200px;
+  }
+  .latest-news .latest-news-img .left-img-content .button {
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+  .latest-news .latest-news-img .left-img-content .heading {
+    font-size: 24px;
+  }
+  .latest-news .latest-news-img .left-img-content .author {
+    line-height: 2.571;
+  }
+  .latest-news .latest-news-img .right-img-button {
+    bottom: 5%;
+    right: 8%;
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* ==========================================================================
+    8.Team
+   ========================================================================== */
+  .team .team-member .team-img::before {
+    width: 160px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

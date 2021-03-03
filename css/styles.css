@@ -1,0 +1,891 @@
+/*rgb(51,51,51)*/
+/*rgb(244, 157, 29)*/
+/*rgb(252, 252, 252)*/
+/*rgb(102,102,102)*/
+/*rgb(68, 68, 68)*/
+/*rgb(222,222,222)*/
+/*rgb(204, 204, 204)*/
+/*rgb(235,235,235)*/
+/* ==========================================================================
+   Theme name:Resturent HTML Template;
+   Authore name:Moon kabir;
+   Authore URI:;
+   ========================================================================== */
+/* ==========================================================================
+   Index
+   ========================================================================== */
+/* 
+    1.Typrographi
+    2.Menu
+    3.Hero
+    4.Our-History
+    5.Today-Specials
+    6.Menu-Card
+    7.Reservation-Table
+    8.Team
+    9.Counter
+    10.Testimonial
+    11.Latest-News
+    12.Footer
+    13.Bottom-footer
+*/
+/* ==========================================================================
+   1.Typrographi
+   ========================================================================== */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #666666;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, a, p, ul, .pm {
+  margin: 0;
+  padding: 0;
+}
+
+.pad {
+  padding: 0;
+}
+
+.mar {
+  margin: 0;
+}
+
+h2, .h2 {
+  font-weight: 800;
+  font-size: 36px;
+}
+
+h3, .h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-fluid2 {
+  min-width: 100%;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+input:focus, .swiper-pagination-bullet-active:focus, .swiper-pagination-bullet:focus, .swiper-button-prev:focus, .swiper-button-next:focus {
+  outline: 0;
+}
+
+*:hover {
+  transition: all .3s ease-in;
+}
+
+.section-heading {
+  font-size: 36px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  position: relative;
+  color: #333333;
+}
+
+.section-heading span {
+  display: block;
+  font-family: "Sofia";
+  color: #f49d1d;
+  line-height: 1.389;
+}
+
+.section-heading::after {
+  content: "";
+  position: absolute;
+  width: 170px;
+  height: 2px;
+  bottom: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #f49d1d;
+}
+
+.button {
+  background: #f49d1d;
+  color: white;
+  line-height: 1.875;
+  text-align: center;
+  padding: 15px 40px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-family: "Poppins Medium";
+}
+
+.pt-28 {
+  padding-top: 28px;
+}
+
+/* ==========================================================================
+     2.Menu
+   ========================================================================== */
+header .main_menu .logo {
+  padding-left: 20px;
+}
+
+header .main_menu .wrapper nav .menu-items li a {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: #333333;
+  line-height: 1.2;
+  padding: 0 20px;
+}
+
+header .main_menu .wrapper nav .menu-items li a:hover {
+  color: #f49d1d;
+}
+
+header .main_menu .wrapper nav .menu-items li a:hover::after {
+  content: url(../images/menu-after.svg);
+  position: absolute;
+  top: 10px;
+  left: 45%;
+}
+
+header .main_menu .wrapper nav .menu-items li .active {
+  color: #f49d1d;
+}
+
+.is-sticky header {
+  background-color: #fcfcfc;
+  box-shadow: 0px 5px 25px 0px rgba(245, 245, 245, 0.004);
+  z-index: 9999999999999;
+}
+
+.is-sticky img {
+  max-width: 80%;
+  transition: all 0.5s ease-in-out;
+}
+
+.sticky-wrapper {
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+}
+
+/* ==========================================================================
+    3.Hero
+   ========================================================================== */
+.hero {
+  position: relative;
+}
+
+.hero .hero-content {
+  position: absolute;
+  z-index: 99;
+  text-align: left;
+  -webkit-transform: translateY(80%);
+          transform: translateY(80%);
+}
+
+.hero .hero-content h1 {
+  font-size: 52px;
+  font-family: "Playfair Display";
+  color: #333333;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.hero .hero-content p {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  color: #333333;
+  line-height: 2;
+}
+
+.hero .hero-content .button {
+  background-color: white;
+  color: #666666;
+  text-transform: uppercase;
+  line-height: 1.2;
+  border: 1px solid #666666;
+}
+
+.hero .hero-content .button:hover {
+  background: #f49d1d;
+  color: white;
+  border: 0;
+  border: 1px solid #f49d1d;
+}
+
+.hero .banner-slider-section .hero-swiper-container {
+  height: 100vh;
+}
+
+.hero .banner-slider-section .hero-swiper-container .swiper-slide {
+  position: relative;
+}
+
+.hero .banner-slider-section .hero-swiper-container .swiper-slide .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.302);
+  z-index: 9;
+}
+
+.hero .banner-slider-section .hero-swiper-container .swiper-slide img {
+  position: relative;
+  z-index: -11;
+}
+
+.hero .swiper-container-vertical > .swiper-pagination-bullets {
+  left: 10px;
+  top: 50%;
+  -webkit-transform: translate3d(0px, -50%, 0);
+  transform: translate3d(0px, -50%, 0);
+  position: absolute;
+  z-index: 999;
+}
+
+.hero .swiper-pagination-bullet-active {
+  background: #f49d1d;
+  padding: 7px;
+}
+
+/* ==========================================================================
+    4.Our-History
+   ========================================================================== */
+.our-history {
+  padding-top: 100px;
+  background: #fcfcfc;
+  padding-bottom: 80px;
+}
+
+.our-history .section-content {
+  text-align: left;
+  padding-top: 40px;
+}
+
+.our-history .section-content .section-heading::after {
+  bottom: -25px;
+  left: 0%;
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+.our-history .section-content p {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  line-height: 1.875;
+}
+
+.our-history .section-content .button:hover {
+  background: #fcfcfc;
+  color: #666666;
+  border: 1px solid #666666;
+}
+
+.our-history img {
+  display: none;
+}
+
+/* ==========================================================================
+    5.Today-Specials
+   ========================================================================== */
+.today-specials {
+  background: url("../images/today-speacial-bg.png") no-repeat;
+  position: relative;
+}
+
+.today-specials .section-content {
+  text-align: center;
+  padding-top: 60px;
+  color: #666666;
+}
+
+.today-specials .section-content .section-heading {
+  padding-bottom: 40px;
+  color: #666666;
+}
+
+.today-specials .section-content .section-heading span {
+  color: #666666;
+}
+
+.today-specials .section-content .section-heading::after {
+  background: #666666;
+}
+
+.today-specials .section-content p {
+  padding-bottom: 300px;
+}
+
+.today-specials .special-list-div {
+  display: grid;
+  grid-template-columns: auto auto;
+  position: absolute;
+  top: 100%;
+  left: 9%;
+  right: 9%;
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
+}
+
+.today-specials .special-list-div .special-list .special-list-content {
+  text-align: center;
+  background: #fcfcfc;
+  border-radius: 3px;
+  height: 214px;
+  width: 100%;
+}
+
+.today-specials .special-list-div .special-list .special-list-content a {
+  font-size: 18px;
+  font-family: "Playfair Display";
+  color: #333333;
+  font-weight: bold;
+  line-height: 2.778;
+}
+
+.today-specials .special-list-div .special-list .special-list-content p {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #444444;
+  padding: 7px;
+  line-height: 2;
+}
+
+.today-specials .special-list-div .special-list .special-list-content span {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #f49d1d;
+  font-weight: bold;
+  line-height: 3.125;
+}
+
+.today-specials .special-list-div .special-list img {
+  height: 214px;
+}
+
+/* ==========================================================================
+    6.Menu-Card
+    ========================================================================== */
+.menu-card {
+  padding-top: 1200px;
+  background: #fcfcfc;
+}
+
+.menu-card .section-heading {
+  padding-bottom: 80px;
+}
+
+.menu-card .section-heading::after {
+  bottom: 50px;
+}
+
+.menu-card .menu-list {
+  padding: 20px 0;
+}
+
+.menu-card .menu-list a img {
+  border: 2px solid #f49d1d;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.menu-card .menu-list .menu-list-content {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.menu-card .menu-list .menu-list-content a {
+  font-size: 18px;
+  font-family: "Playfair Display";
+  color: #333333;
+  font-weight: bold;
+  line-height: 1.556;
+}
+
+.menu-card .menu-list .menu-list-content p {
+  color: #666666;
+  line-height: 2;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+.menu-card .menu-list .price {
+  font-size: 30px;
+  color: #666666;
+  margin-bottom: 17px;
+}
+
+.menu-card .menu-list .price .dollar {
+  color: #f49d1d;
+  font-size: 24px;
+  margin-bottom: 2px;
+}
+
+/* ==========================================================================
+    7.Reservation-Table
+   ========================================================================== */
+.reservation-table {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.reservation-table .section-content {
+  text-align: left;
+}
+
+.reservation-table .section-content .section-heading::after {
+  bottom: -25px;
+  left: 0%;
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+.reservation-table .section-content p {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.reservation-table form input, .reservation-table form textarea {
+  width: 100%;
+  border: 0;
+  padding: 8px 12px 8px 30px;
+  border: 1px solid #dedede;
+  color: #cccccc;
+  line-height: 2.125;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.reservation-table form button {
+  padding: 20px 50px;
+  color: #666666;
+  border: 2px solid #f49d1d;
+  border-radius: 30px;
+  background: #fcfcfc;
+  font-size: 16px;
+}
+
+.reservation-table form button:hover {
+  background: #f49d1d;
+  color: #fcfcfc;
+}
+
+/* ==========================================================================
+    8.Team
+   ========================================================================== */
+.team {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: #fcfcfc;
+}
+
+.team .section-content .section-heading::after {
+  bottom: -25px;
+}
+
+.team .section-content p {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.team .team-member {
+  background: #fcfcfc;
+}
+
+.team .team-member .team-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 31px;
+}
+
+.team .team-member .team-img::before {
+  content: '';
+  width: 175px;
+  height: 120px;
+  background-color: #f49d1d;
+  position: absolute;
+  top: 34px;
+  border-radius: 3px;
+  left: 15px;
+}
+
+.team .team-member .team-img img {
+  z-index: 1;
+  border: 2px solid #cccccc;
+  border-radius: 50%;
+}
+
+.team .team-img-content h4 {
+  font-size: 24px;
+  color: #333333;
+  line-height: 1.167;
+  padding-top: 80px;
+  padding-bottom: 8px;
+}
+
+.team .team-img-content p {
+  color: #333333;
+  line-height: 1.75;
+  padding-bottom: 25px;
+}
+
+.team .team-img-content ul {
+  padding-bottom: 30px;
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.team .team-img-content ul li a {
+  color: #fcfcfc;
+  background: #cccccc;
+  margin: 0 7px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  display: inline-block;
+}
+
+.team .team-img-content ul li a:hover {
+  background: #f49d1d;
+}
+
+.team .team-slider-section .swiper-slide-next .team-member-social-icon {
+  visibility: visible;
+  opacity: 1;
+}
+
+.team .team-slider-section .swiper-slide-next .team-member {
+  box-shadow: 0px 5px 20px 0px rgba(102, 102, 102, 0.25);
+}
+
+.team .team-slider-section .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  margin: 0 3px;
+}
+
+.team .team-slider-section .swiper-pagination-bullet-active {
+  background: #f49d1d;
+}
+
+.team .team-slider-section .swiper-pagination {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding-top: 20px;
+}
+
+/* ==========================================================================
+    9.Counter
+   ========================================================================== */
+.counter-section {
+  padding-top: 160px;
+  background: #f49d1d;
+}
+
+.counter-section .counter h3, .counter-section .counter p {
+  color: #fcfcfc;
+  line-height: 1.042;
+}
+
+.counter-section .counter h3 {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.counter-section .counter p {
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+/* ==========================================================================
+    10.Testimonial
+   ========================================================================== */
+.testimonial .testimonial-slider-section {
+  background-color: #fcfcfc;
+  padding: 50px 0;
+  border-radius: 130px;
+  box-shadow: 0px 15px 80px 0px rgba(0, 0, 0, 0.15);
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.testimonial .testimonial-slider-section .client {
+  display: flex;
+}
+
+.testimonial .testimonial-slider-section .client .client-info p {
+  font-size: 18px;
+  padding-top: 15px;
+  color: #333333;
+  font-weight: bold;
+  line-height: 1.111;
+}
+
+.testimonial .testimonial-slider-section .client .client-info p span {
+  display: block;
+  font-weight: 400;
+  padding-top: 5px;
+}
+
+.testimonial .testimonial-slider-section .client .client-comment .star {
+  padding-top: 25px;
+  display: block;
+  margin: 0 auto;
+}
+
+.testimonial .testimonial-slider-section .swiper-button-next, .testimonial .testimonial-slider-section .swiper-button-prev {
+  background: none;
+}
+
+.testimonial .testimonial-slider-section .swiper-button-next {
+  right: 50px;
+}
+
+.testimonial .testimonial-slider-section .swiper-button-prev {
+  left: 50px;
+}
+
+/* ==========================================================================
+    11.Latest-News
+   ========================================================================== */
+.latest-news {
+  background: #fcfcfc;
+  padding-bottom: 100px;
+}
+
+.latest-news .section-content .section-heading::after {
+  bottom: -25px;
+}
+
+.latest-news .section-content p {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.latest-news .latest-news-img img {
+  position: relative;
+}
+
+.latest-news .latest-news-img .left-img-content {
+  position: absolute;
+  bottom: 80px;
+  left: 50px;
+  text-align: left;
+}
+
+.latest-news .latest-news-img .left-img-content .button {
+  display: inline-block;
+  border: 1px solid #fcfcfc;
+  background: transparent;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.latest-news .latest-news-img .left-img-content .button:hover {
+  background-color: #f49d1d;
+  border: 1px solid #f49d1d;
+}
+
+.latest-news .latest-news-img .left-img-content .heading {
+  font-size: 14px;
+  color: #fcfcfc;
+  font-weight: bold;
+  line-height: 1.5;
+  display: block;
+}
+
+.latest-news .latest-news-img .left-img-content .author {
+  font-size: 14px;
+  color: #cccccc;
+  line-height: 2;
+  display: block;
+}
+
+.latest-news .latest-news-img .right-img-content {
+  top: 45%;
+  left: 37%;
+  -webkit-transform: translate(-30%, -45%);
+          transform: translate(-30%, -45%);
+}
+
+.latest-news .latest-news-img .right-img-button {
+  position: absolute;
+  bottom: 0;
+  right: 6%;
+  border: 1px solid #fcfcfc;
+  background: transparent;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.latest-news .latest-news-img .right-img-button:hover {
+  background-color: #f49d1d;
+  border: 0;
+}
+
+/* ==========================================================================
+    12.Footer
+   ========================================================================== */
+.footer {
+  padding: 100px 0;
+}
+
+.footer .footer-1 {
+  text-align: left;
+}
+
+.footer .footer-1 p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 2;
+}
+
+.footer .footer-1 a {
+  font-size: 14px;
+  color: #f49d1d;
+  line-height: 2;
+}
+
+.footer .footer-1 a:hover {
+  color: #333333;
+}
+
+.footer .footer-1 ul {
+  padding-top: 15px;
+}
+
+.footer .footer-1 ul li {
+  margin-right: 20px;
+}
+
+.footer .footer-1 ul li a {
+  font-size: 14px;
+  font-family: "themify";
+  color: #333333;
+  line-height: 2.143;
+}
+
+.footer .footer-1 ul li a:hover {
+  color: #f49d1d;
+}
+
+.footer .footer-2 {
+  text-align: left;
+}
+
+.footer .footer-2 h5 {
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: #666666;
+  line-height: 1.667;
+}
+
+.footer .footer-2 .post {
+  padding-top: 18px;
+}
+
+.footer .footer-2 .post p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 2;
+  padding-left: 30px;
+  margin-top: -5px;
+}
+
+.footer .footer-2 .post p span {
+  display: block;
+}
+
+.footer .footer-3 h5 {
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: #666666;
+  line-height: 1.667;
+}
+
+.footer .footer-3 .widget {
+  padding-top: 15px;
+}
+
+.footer .footer-3 .widget .image {
+  position: relative;
+}
+
+.footer .footer-3 .widget .image img {
+  display: block;
+}
+
+.footer .footer-3 .widget .image .overlay {
+  position: absolute;
+  top: 5px;
+  bottom: 0;
+  left: 5px;
+  right: 0;
+  height: 80%;
+  width: 85%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(244, 157, 29, 0.902);
+}
+
+.footer .footer-3 .widget .image .overlay i {
+  color: #fcfcfc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.footer .footer-3 .widget .image:hover .overlay {
+  opacity: 1;
+}
+
+/* ==========================================================================
+    13.Bottom-footer
+   ========================================================================== */
+.bottom-footer {
+  background-color: #fcfcfc;
+  padding: 20px 0;
+}
+
+.bottom-footer p {
+  font-size: 14px;
+  font-family: "Lato";
+  color: #cccccc;
+  line-height: 2.144;
+}
+
+.bottom-footer p a {
+  color: #f49d1d;
+}
+
+/*# sourceMappingURL=styles.css.map */
